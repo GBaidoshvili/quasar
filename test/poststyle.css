@@ -1,0 +1,70 @@
+.post
+		{
+		 height: auto;
+		 width: 700px;
+		 border: solid 1px black;
+		 margin-top: 20px;
+		 margin-left:24px;
+		}
+		
+		.postheader
+		{
+		 height: 75px;
+		 width: 700px;
+		 background-color: black;
+		 }
+		
+		.posttitle
+		{
+		 height: 45px;
+		 width: 690px;
+		 padding: 5px;
+		 color: white;
+		 font-size: 14pt;
+		 font-weight: bold;
+		 text-decoration: none;
+		}
+				
+		.postdate
+		{
+		 height: 20px;
+		 width: 700px;
+		 color: white;
+		 text-align: right;
+		}
+		
+		.postmain
+		{
+		 width: 700px;
+		 background-color: white;
+		 margin: 0px;
+		}
+		
+		.postimage
+		{
+		height: 150px;
+		 width: 640px;
+		 margin-top: 20px;
+		 margin-left: 30px;
+		 margin-bottom:10px;
+		 border: solid 1px black;
+		 overflow: hidden;
+		 position: relative;
+		}
+		
+		.posttext
+		{
+		 width: 650px;
+		 margin-left: 25px;
+		 margin-bottom: 70px;
+		 color: black;
+		}
+		
+		.postfooter
+		{
+		 height: 30px;
+		 width: 700px;
+		 background-color: black;
+		}
+
+		

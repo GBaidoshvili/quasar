@@ -1,0 +1,606 @@
+*
+		{
+		 margin: 0;
+		 padding: 0;
+		}
+		
+		#top 
+		{
+		 margin-top: 20px;
+		 margin-left: 81px;
+		}
+
+		#body
+		{
+		 width: 100%;
+		 display: block;
+		}
+		
+		#pagewrapper
+		{
+		  width: 100%;
+		 display: block;
+		 width: 1000px;
+		 margin: 0px auto;
+		}
+		
+		
+		#logo
+		{
+		 display: block;
+		 margin-top: 6px;
+		 margin-left: 30px;
+		 float: left;
+		}
+		
+		#header
+		{
+		 width: 1000px;
+		 height: 160px;
+		 background-image: url(E/images/nc.png);
+		 background-repeat: repeat-x;
+		}
+		
+		
+		#navigation
+		{
+		 height: 36px;
+		 width: 1000px; 
+		}
+		
+		
+		#navmenu
+		{
+		 display: block;
+		 float: left;
+		}
+		
+		
+		.fb-like-box
+		{
+		 background-color: white;
+		 border: 3px black solid;
+		 margin-top: 20px;
+		 margin-left: 12px;
+		}
+		
+		
+		#page
+		{
+		 width: 1000px;
+		 margin: 0px;
+		 background-color: white;
+		 background-image: url(E/images/background.jpg);
+		}
+		
+		#page:after
+		{
+		 clear: both;
+		 content: "";
+		 display: block;
+		}
+		
+		#mainpage
+		{
+		 background-color: white;
+		 width: 750px;
+		 padding-bottom: 20px;
+		 padding-top: 15px; 
+		 margin-left: 250px;
+		}
+	
+		
+		#sidekick
+		{
+		width: 250px;
+		background-color: #B8B8B8;
+		float: left;
+		padding-bottom: 70px;
+		}
+		
+		#footer
+		{
+		 height: 94px;
+		 width: 1000px;
+		 background-image: url(E/images/footer.png);
+
+		}
+		
+		
+		#cr
+		{
+
+	 	 position: absolute;
+	 	 margin: 35px 310px;
+	 	 color: white;
+
+		}
+		
+		#search
+		{
+		 margin-top: 15px;
+		 margin-left: 15px;
+		}
+		
+		
+		.mainbuttonleft, .mainbuttonmid, .mainbuttonright
+		{
+				 
+		 width: 200px;
+		 height: 36px;
+		 display: block;
+		 float: left;
+				 
+		}
+				
+		.mainbutton
+		{
+		 font-size: 12pt;
+		 width: 200px;
+		 height: 36px;
+		 display: block;
+		 text-align: center;
+		 line-height: 30px;
+		 text-decoration: none;
+		 color: #FFFFFF;
+		}
+				
+				
+		.mainbuttonleft
+		{
+		 background-image: url(E/images/lbp.png);
+		}
+				
+		.mainbuttonleft:hover
+		{
+		 background-image: url(E/images/lba.png);
+		}
+				
+		.mainbuttonmid
+		{
+		 background-image: url(E/images/mbp.png);
+		}
+		
+		.mainbuttonmid:hover
+		{
+		 background-image: url(E/images/mba.png);
+		}
+				
+		.mainbuttonright
+		{
+		 background-image: url(E/images/rbp.png);
+		}
+				
+		.mainbuttonright:hover
+		{
+		 background-image: url(E/images/rba.png);
+		}
+				
+		.submenu
+		{
+		 list-style-type: none;
+		 text-decoration: none;
+		 text-align: center;
+		 display: none;
+		 position: absolute;
+		 overflow: visible;
+		 z-index: 1000;
+		}
+				
+		.subbutton
+				
+		{
+		 display: block;
+		 text-decoration: none;
+		 color: black;
+		 height: 25px;
+		 width: 200px;
+		 background-image: url(E/images/subb.png);
+		}
+				
+		.subbutton:hover
+		{
+		 color: #B80000;
+		 text-decoration: underline;
+		 background-image: url(E/images/subba.png);
+		}
+		
+		.mainbutton:hover
+		{
+		 color: #FCFCFC;
+		 text-decoration: underline;
+		}
+		
+		
+		
+		.postouter
+		{
+		 height: 400px;
+		 width: 700px;
+		 border: solid 1px black;
+		 margin-top: 20px;
+		 margin-left: 24px;
+		}
+		
+		.postouterheader
+		{
+		 height: 75px;
+		 width: 700px;
+		 background-color: black;
+		 }
+		
+		.posttitle
+		{
+		 height: 45px;
+		 width: 690px;
+		 padding: 5px;
+		}
+		
+		.posttitle a
+		{
+		 color: white;
+		 font-size: 14pt;
+		 font-weight: bold;
+		 text-decoration: none;
+		}
+		
+		.posttitle a:hover
+		{
+		 text-decoration: underline;
+		}
+		
+		.postdate
+		{
+		 height: 20px;
+		 width: 700px;
+		 color: white;
+		 text-align: right;
+		}
+		
+		.postoutermain
+		{
+		 height: 295px;
+		 width: 700px;
+		 background-color: white;
+		 margin: 0px;
+		}
+		
+		.postouterimage
+		{
+		 height: 150px;
+		 width: 640px;
+		 margin-top: 20px;
+		 margin-left: 30px;
+		 margin-bottom:10px;
+		 float: left;
+		 border: solid 1px black;
+		 overflow: hidden;
+		 position: relative;
+		}
+		
+		.postmainimage
+		{
+
+		 width: 640px;
+		 height: 400px;
+		 margin-top: -125px;
+		 position: absolute;
+		}
+		
+		.postoutertext
+		{
+		 height: 100px;
+		 width:650;
+		 margin-left: 25px;
+		 margin-bottom: 10px;
+		 float: left;
+
+		 color: black;
+		}
+		
+		.postouterfooter
+		{
+		 height: 30px;
+		 width: 700px;
+		 background-color: black;
+		}
+		
+
+		
+		.share
+		{
+		 margin-top: 4px;
+		 margin-left: 5px;
+		 display: block;
+		 height: 22px;
+		 width: 45px;
+		 float: left;
+		 background-image: url(E/images/share.png);
+		}
+		
+		.readmore
+		{
+		 display:block;
+		 height: 22px;
+		 width: 100px;
+		 float: right;
+		 margin-right: 6px;
+		 margin-top: 4px;
+		 background-image: url(E/images/rmp.png);
+		 color: white;
+		 text-align: center;
+		 text-decoration: none;
+		}
+		
+		.readmore:hover
+		{
+		 background-image: url(E/images/rma.png);
+		 text-decoration: underline;
+		}
+
+		
+
+		#pagination
+		{
+		 height: 30px;
+		 width: 400px;
+		 margin-top: 20px;
+		 margin-left: 175px;
+		 text-align: center;
+		}
+		
+		.pagebuttonp
+		{
+		font-size: 16pt;
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+		}
+		
+		.pagebuttonp:hover
+		{
+		text-decoration: underline;
+		}
+				
+		.pagebuttona
+		{
+		text-decoration: underline;
+		color: #B80000;
+		font-weight: bold;
+		font-size: 16pt;
+		}
+		
+			
+		#slider
+		{
+		 height: 400px;
+		 width: 700px;
+		 border: solid black 2px;
+		 margin-left: 25px;
+		 position: relative;
+		 
+		}
+		
+		#slider img
+		{
+		 height: 400px;
+		 width: 700px;
+		}
+			
+		.slide
+		{
+		 position: absolute;
+		 overflow: hidden;
+		 display: none;
+		 height: 400px;
+		 width: 700px;
+		}
+		
+
+		
+		.slidernav
+		{
+		 z-index: 999;
+		 opacity: 0;
+		 position: absolute;
+		 cursor: pointer;
+		 transition: .5s;
+		}
+		
+		.slidernav:hover
+		{
+		 opacity: 0.8;
+		}
+		
+		#slider:hover #sliderpointwrapper
+		{
+		opacity: 0.8;
+		}
+		
+		#arrowright
+		{
+		 height: 350px;
+		 width: 70px;
+		 right: 0;
+		 background-image: url(E/images/arrowright.png);
+		}
+		
+		#arrowleft
+		{
+		 height: 350px;
+		 width: 70px;
+		 left: 0;
+		 background-image: url(E/images/arrowleft.png);
+		}
+		
+		#sliderpointwrapper 
+		{
+		 height: 20px;
+		 width: 130px;
+		 position: absolute;
+		 bottom: 0px;
+		 left: 285px;
+		}
+		
+		.sliderpoint
+		{
+		 height: 20px;
+		 width: 20px;
+		 background-image: url(E/images/sliderpointp.png);
+		 position: relative;
+		 margin-left: 10px;
+		 float: left;
+		}
+		
+		.slideinfo
+		{
+		height: 100px;
+		width: 700px;
+		position: absolute;
+		bottom: 30px;
+		background-color: black;
+		opacity: 0.8;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+		}
+		
+		.slidetitle
+		{
+		 margin-top: 5px;
+		 margin-left: 25px;
+		 height: 80px;
+		 width: 650px;
+		 text-align: center;
+		 font-size: 18pt;
+		 display: block;
+		 text-decoration: none;
+		 color: white;
+		}
+		
+		.slide:hover .slidetitle
+		{
+		 text-decoration: underline;
+		}
+		
+		.searchresult
+		{
+		 display: block;
+		 width: 700px;
+		 margin-top: 30px;
+		 margin-left: 30px;
+		}
+		
+		.searchresult a
+		{
+		 text-decoration: none;
+		 color: black;
+		}
+		
+		.searchresult a:hover
+		{
+		 text-decoration: underline;
+		 color: #B80000;
+		}
+		
+		
+		#recposts
+		{
+		 width: 230px;
+		 height: 536px;
+		 margin: 50px auto;
+		}
+		
+		#recpostscontent
+		{
+		 width: 230px;
+		 height: 512px;
+		 border: 2px solid black;
+		 border-top: 1px solid black;
+		}
+		
+		.recpost
+		{
+		 width: 226px;
+		 height: 100px;
+		 margin: 2px auto;
+		 overflow: hidden;
+		 position: relative;
+		}
+		
+		.recpostimage
+		{
+		 margin-top: -10px;
+		}
+		
+		.recpostinfo
+		{
+		 height: 84px;
+		 width: 226px;
+		 position: absolute;
+		 bottom: -59px;
+		 background-color: black;
+		 opacity: 0.8;
+		 border-top: 1px solid white;
+		 border-bottom: 1px solid white;
+		 text-align: center;
+		 font-size: 12pt;
+		 text-decoration: none;
+		 color: white;
+		 transition: .5s;
+		 -webkit- transition: .5s;
+		 -o- transition: .5s;
+		 -moz- transition: .5s;
+		}
+		
+		.recpost:hover .recpostinfo
+		{
+		 bottom: 8px
+		}
+		
+		#recpostshead
+		{
+		 height: 22px;
+		 background-image: url(E/images/recpostshead.png);
+		 color: white;
+		 text-align: center;
+		 width: 234px;
+		}
+		
+		#similarposts
+		{
+		 width: 700px;
+		 margin: 0 auto;
+		 padding-bottom: 5px;
+		}
+		
+		.similarpost
+		{
+		 height:120px;
+		 width: 700px;
+		 margin-top: 5px;
+		 border-top: 1px solid black;
+		 padding-top: 2px;
+		}
+		
+		.similarpost img
+		{
+		 height: 120px;
+		 width: 250px;
+		 float: left;
+		}
+		
+		.similarpostinfo
+		{
+		 height: 120px;
+		 width: 440px;
+		 float: left;
+		 color: black;
+		 text-align: left;
+		 margin-left: 10px;
+		 font-weight: bold;
+		}
+		
+		.similarpost:hover .similarpostinfo
+		{
+		 text-decoration: underline;
+		}

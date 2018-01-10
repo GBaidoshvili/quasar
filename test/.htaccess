@@ -1,0 +1,3 @@
+SetEnv TZ Asia/Tbilisi
+
+ErrorDocument 404 /404.php
